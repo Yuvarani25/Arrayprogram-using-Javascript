@@ -83,8 +83,8 @@ function temp(cel){
 console.log(temp(30));
 
 //8)
-let arr=[0,1,3,4,5,6];
-let y=arr.length;
+let ar=[0,1,3,4,5,6];
+let y=ar.length;
 let sum=0;
 let n;
 for(n=0;n<=y;n++){
@@ -93,6 +93,6 @@ for(n=0;n<=y;n++){
 let sum1=0;
 let z;
 for(z=0;z<y;z++){
-    sum1=sum1+arr[z];
+    sum1=sum1+ar[z];
 }
 console.log(sum-sum1);
